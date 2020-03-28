@@ -1,0 +1,37 @@
+#update
+sudo apt-get update
+
+#install python
+sudo apt-get -y install python2.7 python-pip python-dev
+
+#install ipython
+sudo apt-get -y install ipython ipython-notebook
+
+#upgrade pip
+sudo -H pip install --upgrade pip
+
+#install jupyter notebook
+sudo -H pip install jupyter
+or
+sudo -H pip install --ignore-installed -U ipython
+or
+sudo -H pip install --ignore-installed jupyter
+#start jupyter notebook
+jupyter notebook
+
+
+#source
+https://vvwwvw.tistory.com/23
+http://enjoystat.blogspot.com/2019/
+http://enjoystat.blogspot.com/2019/11/1804-jupyter-notebook-anaconda-spyder.html
+
+#unsolved? error
+"launchpadlib 1.10.3 requires testresources, which is not installed."
+
+"ERROR: Cannot uninstall 'pyzmq'. It is a distutils installed project and thus we cannot accurately determine which files belong to it which would lead to only a partial uninstall."
+
+#solve error
+https://my-repo.tistory.com/4
+
+#여기는 파이썬 3(나는 이걸로 x)
+https://myborn.tistory.com/7
